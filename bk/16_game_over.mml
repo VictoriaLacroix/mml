@@ -1,0 +1,30 @@
+#TITLE Game Over
+#COMPOSER Grant Kirkhope
+#MAKER Victoria Lacroix
+
+#INCLUDE macro.mml
+
+ABCD t100
+
+A @@11 @v13 o5
+A c6 < g12 g+6 g12 b6 g12 g+6 g12
+A b6 > c12 d6 e-12 r6 d24 c+24 c4
+A c4 c4 c6 < g+12 g6 c12
+A r4 [ g24 > c24 < ]3 [ f+24 > c24 < ]3 [ f24 > c24 < ]3
+A e-1
+
+B @@1 @v20 o3
+B EN45 e-6 r12 e-12 r12 e-12 EN54 d6 r12 d12 r12 d12
+B d6 r12 d12 r12 d12 EN45 e-6 r12 e-6 r12
+B e-6 r12 e-6 r12 e-6 r12 EN54 d6 r12
+B EN45 e-6 r12 e-6 r12 EN54 d6 r12 d6 r12
+B EN45 e-4 r4^2
+
+C o4 q7
+C c4 c12 < a12 g+12 g4 g12 g+12 b-12 g4 g12 a12 b12 > c4^8 r8
+C c6 r12 c6 r12 c6 r12 < g6 r12 > c6 r12 c6 r12 < g+6 r12 g6 r12 >
+C c4 r4^2
+
+D o0 @v10
+D [ EN1 n13,4 EN0 n10,6 n9,12 ]8
+D EN7 n8,1

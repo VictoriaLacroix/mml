@@ -1,0 +1,215 @@
+#TITLE Grunty's Furnace Fun
+#COMPOSER Grant Kirkhope
+#MAKER Victoria Lacroix
+
+#INCLUDE macro.mml
+
+#BANK-CHANGE 3
+#BANK-CHANGE 4
+
+@EN63 = { 0 0 0 | 6 0 3 0 -9 0 }
+
+ABCD t140
+
+A @@0 @v21 o4 MP1
+A r4 EN24 c4 EN23 e4 EN25 g4 g8 ENOF r8^4^2 r1
+B @@0 @v20 o3 MP2
+B c1
+B @@12 @v10 o4 MP1 ENOF
+B [ c8 > c16 < b16 > c8 c16 < b16 > c16 < b16 > c16 c8 c16 < b16 > c16 < ]2
+C r1
+C o4 q4
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D EN1 @v10 o0
+D [ n2,32 ]8 [ EN7 n6,16 EN1 [ n2,32 ]6 ]3
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]3 EN0 n14,8 n10,16 n10,16
+
+ABCD L
+
+A @@0 @v21 o4 MP1
+A r8 EN25 g4 EN23 e8 EN24 f8 EN23 e16 EN24 f8 EN23 e16 EN24 f8 ENOF
+A r8 EN25 g4 c+8 e-8 c+16 e-8 c+16 e-8 ENOF
+A [ EN23 e8^16 EN24 c8 r16 f8 EN23 e8^16 EN24 c8 r8^16 ENOF ]2
+A r8 EN25 g4 EN23 e8 EN24 f8 EN23 e16 EN24 f8 EN23 e16 EN24 f8 ENOF
+A r8 EN25 g4 c+8 e-8 c+16 e-8 c+16 e-8 ENOF
+A r8 EN23 e8 e8 EN24 f8 f+16 f16 f+8 r8 f8 ENOF
+A EN23 e8 e16 EN24 f+8 f+16 f8 EN23 e8 EN24 f+8 EN23 e8 EN24 c8 ENOF
+B @@12 @v10 o4 MP1 ENOF
+B [
+B c8 > c16 < b16 > c8 c16 < b16 > c16 < b16 > c16 c8 c16 < b16 > c16 <
+B c8 > c16 < f+16 > c8 c16 < f+16 > c16 < f+16 > c16 c8 < f+16 > c16 < f+16
+B [ c8 > c16 < b16 > c8 c16 < b16 > c16 < b16 > c16 c8 c16 < b16 > c16 < ]2
+B ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+
+A MPOF
+A [ r1 ]4
+B [ r1 ]4
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]4
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]8
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]3 EN0 n10,8 n10,16 EN1 n2,16
+
+A @@2 @v21 o4 MP1
+A r8 > c4 < g8 a8 g16 a8 g16 a8 r8 > c4 < f+8 g+8 f+16 g+8 f+16 g+8
+A [ g8^16 e8 r16 a8 g8^16 e8 r8^16 ]2
+A r8 > c4 < g8 a8 g16 a8 g16 a8 r8 > c4 < f+8 g+8 f+16 g+8 f+16 g+8
+A r8 g8 g8 a8 b-16 a16 b-8 r8 a8
+A g16 r16 g16 b-16 r16 b-16 a8 g8 b-8 g8 e8
+B [ r1 ]8
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]16
+
+A @@2 @v21 o4 MP1
+A [ f8 a16 g+16 a8 > c8 < ]2 [ f8 g+16 g16 g+8 > c+8 < ]2
+A r8 > c8 < a8 > d8 c8^16 < a8 r8^16 > c8^16 < a16 > r8 d8 c8^16 < a8 r8^16
+A [ f8 a16 g+16 a8 > c8 < ]2 [ f8 g+16 g16 g+8 > c+8 < ]2
+A > r8 c8 c8 d8 e-16 d16 e-8 r8 d8 c16 r16 c16 e-16 r16 e-16 d8 c8 e-8 c8 < a8
+A r8 g4 a8 b8 a16 g8 g16 d8 r8 g4 a8 b-8 a16 g8 g16 > e-8
+A d8^16 < b8 r16 > e8 d8^16 < b8 r8^16 g16 f+16 g16 f+16 g8 b8 d8 e8 f8 f+8
+A g8 > c4 < g8 a8 g16 a8 g16 a8 r8 > c4 < f+8 g+8 f+16 g+8 f+16 g+8
+A r8 g8 g8 a8 b-16 a16 b-8 r8 a8
+A g16 r16 g16 b-16 r16 b-16 a8 g8 > c16 < b16 > c16 r8^16
+B @@12 @v20 o4 MP1 ENOF
+B [
+B EN54 c8 r16 c8 r2 c8 r16 EN63 < b8 r16 b8 r2 b8 r16 >
+B [ EN54 c8 r16 c8 r2 c8 r16 ]2
+B ]2
+B < EN35 b8 r16 b8 r2 b8 r16 > EN33 c8 r16 c8 r2 c8 r16
+B [ < EN35 b8 r16 b8 r2 b8 r16 > ]2
+B EN43 c8 r16 c8 r2 c8 r16 EN33 c8 r16 c8 r2 c8 r16
+B [ EN43 c8 r16 c8 r2 c8 r16 ]2
+C < a8 r8 > c8 r8 f8 r16 g8^16 a16 r16
+C < g+8 r8 b8 r8 > f8 r16 g8^16 g+16 r16
+C [ < a8 r8 > c8 r8 f8 r16 g8^16 a16 r16 ]2
+C < b8 r8 > d8 r8 g8 r16 a8^16 b16 r16
+C < a8 r8 > d8 r8 f+8 r16 g8^16 a16 r16
+C [ < b8 r8 > d8 r8 g8 r16 a8^16 b16 r16 ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]16
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]16
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]3 EN0 n10,8 n10,16 EN1 n2,16
+
+A @@0 @v21 o4 MP1
+A r8 EN25 g4 EN23 e8 EN24 f8 EN23 e16 EN24 f8 EN23 e16 EN24 f8 ENOF
+A r8 EN25 g4 c+8 e-8 c+16 e-8 c+16 e-8 ENOF
+A r8 EN23 e8 e8 EN24 f8 f+16 f16 f+8 r8 f8 ENOF
+A EN23 e8 e16 EN24 f+8 f+16 f8 EN23 e8 EN25 g16 EN24 g16 EN25 g16 ENOF r8^16
+B @@12 @v10 o4 MP1 ENOF
+B c8 > c16 < b16 > c8 c16 < b16 > c16 < b16 > c16 c8 c16 < b16 > c16 <
+B c8 > c16 < f+16 > c8 c16 < f+16 > c16 < f+16 > c16 c8 < f+16 > c16 < f+16
+B [ c8 > c16 < b16 > c8 c16 < b16 > c16 < b16 > c16 c8 c16 < b16 > c16 < ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+
+A MPOF
+A [ r1 ]4
+B [ r1 ]4
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]4
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]3 EN0 n10,8 n10,16 EN1 n2,16
+
+A @@2 @v21 o3 MP1
+A r8 > c4 < g8 a8 g16 a8 g16 a8 r8 > c4 < f+8 g+8 f+16 g+8 f+16 g+8
+A [ g8^16 e8 r16 a8 g8^16 e8 r8^16 ]2
+A r8 > c4 < g8 a8 g16 a8 g16 a8 r8 > c4 < f+8 g+8 f+16 g+8 f+16 g+8
+A r8 g8 g8 a8 b-16 a16 b-8 r8 a8
+A g16 r16 g16 b-16 r16 b-16 a8 g8 b-8 g8 e8
+B [ r1 ]8
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]16
+
+A @@2 @v21 o3 MP1
+A [ f8 a16 g+16 a8 > c8 < ]2 [ f8 g+16 g16 g+8 > c+8 < ]2
+A r8 > c8 < a8 > d8 c8^16 < a8 r8^16 > c8^16 < a16 > r8 d8 c8^16 < a8 r8^16
+A [ f8 a16 g+16 a8 > c8 < ]2 [ f8 g+16 g16 g+8 > c+8 < ]2
+A > r8 c8 c8 d8 e-16 d16 e-8 r8 d8 c16 r16 c16 e-16 r16 e-16 d8 c8 e-8 c8 < a8
+A r8 g4 a8 b8 a16 g8 g16 d8 r8 g4 a8 b-8 a16 g8 g16 > e-8
+A d8^16 < b8 r16 > e8 d8^16 < b8 r8^16 g16 f+16 g16 f+16 g8 b8 d8 e8 f8 f+8
+A g8 > c4 < g8 a8 g16 a8 g16 a8 r8 > c4 < f+8 g+8 f+16 g+8 f+16 g+8
+A r8 g8 g8 a8 b-16 a16 b-8 r8 a8
+A g16 r16 g16 b-16 r16 b-16 a8 g8 > c16 < b16 > c16 r8^16
+B @@12 @v20 o4 MP1 ENOF
+B [
+B EN54 c8 r16 c8 r2 c8 r16 EN63 < b8 r16 b8 r2 b8 r16 >
+B [ EN54 c8 r16 c8 r2 c8 r16 ]2
+B ]2
+B < EN35 b8 r16 b8 r2 b8 r16 > EN33 c8 r16 c8 r2 c8 r16
+B [ < EN35 b8 r16 b8 r2 b8 r16 > ]2
+B EN43 c8 r16 c8 r2 c8 r16 EN33 c8 r16 c8 r2 c8 r16
+B [ EN43 c8 r16 c8 r2 c8 r16 ]2
+C < a8 r8 > c8 r8 f8 r16 g8^16 a16 r16
+C < g+8 r8 b8 r8 > f8 r16 g8^16 g+16 r16
+C [ < a8 r8 > c8 r8 f8 r16 g8^16 a16 r16 ]2
+C < b8 r8 > d8 r8 g8 r16 a8^16 b16 r16
+C < a8 r8 > d8 r8 f+8 r16 g8^16 a16 r16
+C [ < b8 r8 > d8 r8 g8 r16 a8^16 b16 r16 ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]16
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]16
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]3 EN0 n10,8 n10,16 EN1 n2,16
+
+A @@0 @v21 o4 MP1
+A r8 EN25 g4 EN23 e8 EN24 f8 EN23 e16 EN24 f8 EN23 e16 EN24 f8 ENOF
+A r8 EN25 g4 c+8 e-8 c+16 e-8 c+16 e-8 ENOF
+A r8 EN23 e8 e8 EN24 f8 f+16 f16 f+8 r8 f8 ENOF
+A EN23 e8 e16 EN24 f+8 f+16 f8 EN23 e8 EN25 g16 EN24 g16 EN25 g16 ENOF r8^16
+B @@12 @v10 o4 MP1 ENOF
+B c8 > c16 < b16 > c8 c16 < b16 > c16 < b16 > c16 c8 c16 < b16 > c16 <
+B c8 > c16 < f+16 > c8 c16 < f+16 > c16 < f+16 > c16 c8 < f+16 > c16 < f+16
+B [ c8 > c16 < b16 > c8 c16 < b16 > c16 < b16 > c16 c8 c16 < b16 > c16 < ]2
+C c8 r8 e8 r8 f8 r16 f+16^8 g16 r16
+C < g+8 r8 > c8 r8 e-8 r16 f8^16 f+16 r16
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]12
+
+A [ r1 ]2
+B @@12 @v10 o4 MP2 ENOF
+B [ c8 > c16 < b16 > c8 c16 < b16 > c16 < b16 > c16 c8 c16 < b16 > c16 < ]2
+C [ c8 r8 e8 r8 f8 r16 f+16^8 g16 r16 ]2
+D EN7 n6,8 EN0 n10,16 EN1 n2,16 [ EN0 n14,8 n10,16 EN1 n2,16 ]3
+D [ EN0 n14,8 n10,16 EN1 n2,16 ]3 EN0 n14,8 n10,16 n10,16

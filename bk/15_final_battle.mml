@@ -1,0 +1,472 @@
+#TITLE Final Gruntilda Battle
+#COMPOSER Grant Kirkhope
+#MAKER Victoria Lacroix
+
+#INCLUDE macro.mml
+
+#BANK-CHANGE 1
+#BANK-CHANGE 2
+#BANK-CHANGE 3
+#BANK-CHANGE 4
+
+@EN13 = { 0 0 0 | 24 0 0 -24 0 0 }
+@EN27 = { 0 0 0 | 7 0 0 -7 0 0 }
+@EN28 = { 0 0 0 | 8 0 0 -8 0 0 }
+@EN82 = { 0 0 0 | 2 0 5 0 -7 0 }
+@EN83 = { 0 0 0 | 3 0 4 0 5 0 -5 0 -4 0 -3 0 }
+@EN84 = { 0 0 0 | 4 0 3 0 5 0 -5 0 -3 0 -4 0 }
+@EN85 = { 0 0 0 | 5 0 4 0 3 0 -3 0 -4 0 -5 0 }
+@EN88 = { 0 0 0 | 3 0 3 0 2 0 -8 0 }
+
+ABCD t180
+
+A @@0 @v21 o2 MP1
+A c8^16 e-16 d12 e-12 d12 c2^1
+B @@11 @v21 o4 MP1
+B r1 c8^16 e-16 d12 e-12 d12 c2
+C o3 q7 MPOF
+C r2 c8^16 e-16 d12 e-12 d12
+C c2 >> c8^16 e-16 d12 e-12 d12
+D @v12
+D [ r1 ]2
+
+ABCD L
+
+A c16 r16^8^4^2
+A r2^4 g4 >
+A @@0 @v21 o3 MP1 EN12
+A c6 e-12 d12 e-12 d12 c6 g12 g+6 g12
+A c6 e-12 d12 e-12 d12 c4 < b-4 >
+A e-6 g12 f12 g12 f12 e-6 b-12 > c12 < r12 b-12
+A e-6 g12 f12 g12 f12 e-6 r12^4 <
+B @@11 @v20 o4 MP1
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+B [ < g+24 > c24 e-24 g+24 > c24 e-24 g+24 e-24 c24 < g+24 e-24 c24 ]2
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+B c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24
+B c24 e-24 g24 > c24 e-24 g24 > d24 < b-24 f24 d24 < b-24 f24
+B [ e-24 g24 b-24 > e-24 g24 b-24 > e-24 < b-24 g24 e-24 < b-24 g24 ]4
+C o4 q7 MPOF
+C c4 < g4 > c4 < g4 g+4 e-4 g+4 e-4 >
+C c4 < g4 > c4 < g4 > c4 < g4 > c4 < b-4 >
+C [ e-4 < b-4 > ]4
+D o0 EN8
+D [ n8,1 r1 ]3
+
+A EN12 @@0 @v21 o3 MP1
+A f6 g+12 g12 g+12 b-12 > c6 d12 e-6 d12
+A c+6 c12 < b-6 g+12 g6 a12 b6 > d12 <
+A g+6 b-12 > c12 < b-12 g+12 f6 g12 g+6 > c12 <
+A g12 d12 g12 b12 g12 b12 > d12 < b12 > d12 f12 e-12 d12
+B @@11 @v20 o4 MP1
+B f24 g+24 > c24 f24 g+24 > c24 f24 c24 < g+24 f24 c24 < g+24
+B c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24
+B c+24 f24 g+24 > c+24 f24 g+24 > c+24 < g+24 f24 c+24 < g+24 f24
+B d24 g24 b24 > d24 g24 b24 > d24 < b24 g24 d24 < b24 g24
+B e-24 g+24 > c24 e-24 g+24 > c24 e-24 c24 < g+24 e-24 c24 < g+24
+B f24 g+24 > c24 f24 g+24 > c24 f24 c24 < g+24 f24 c24 < g+24
+B g24 > c24 d24 g24 > c24 d24 g24 d24 c24 < g24 d24 c24 <
+B g24 b24 > d24 g24 b24 > d24 g24 d24 < b24 g24 d24 < b24
+C o4 q7 MPOF
+C f4 c4 c4 < g4 > c+4 < g+4 g4 b4
+C g+4 > c4 < f4 g+4 g4 > d4 < g4 > d4
+D [ r1 ]4
+
+A @@2 @v21 o4 MP1 ENOF
+A f6 g+12 g12 g+12 b-12 > c6 d12 e-6 d12
+A c+6 c12 < b-6 g+12 g6 a12 b6 > d12 <
+A g+6 b-12 > c12 < b-12 g+12 f6 g12 g+6 > c12 <
+A g12 d12 g12 b12 g12 b12 > d12 < b12 > d12 f12 e-12 d12
+B @@11 @v20 o4 MP1
+B f24 g+24 > c24 f24 g+24 > c24 f24 c24 < g+24 f24 c24 < g+24
+B c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24
+B c+24 f24 g+24 > c+24 f24 g+24 > c+24 < g+24 f24 c+24 < g+24 f24
+B d24 g24 b24 > d24 g24 b24 > d24 < b24 g24 d24 < b24 g24
+B e-24 g+24 > c24 e-24 g+24 > c24 e-24 c24 < g+24 e-24 c24 < g+24
+B f24 g+24 > c24 f24 g+24 > c24 f24 c24 < g+24 f24 c24 < g+24
+B g24 > c24 d24 g24 > c24 d24 g24 d24 c24 < g24 d24 c24 <
+B g24 b24 > d24 g24 b24 > d24 g24 d24 < b24 g24 d24 < b24
+C o4 q7 MPOF
+C f4 c4 c4 < g4 > c+4 < g+4 g4 b4
+C g+4 > c4 < f4 g+4 g4 > d4 < g4 > d4
+D o0 EN8
+D n8,1 [ r1 ]3
+
+A @@12 @v13 o4 MPOF ENOF
+A c6 e-12 d12 e-12 d12 c6 g12 g+6 g12
+A c6 e-12 d12 e-12 d12 c4 < b-4 >
+A e-6 g12 f12 g12 f12 e-6 b-12 > c12 < r12 b-12
+A e-6 g12 f12 g12 f12 e-4^4 <
+B @@0 @v20 o3 MP2
+B [ EN23 c12 r12 c12 ]7 < EN24 b-12 r12 b-12 >
+B [ EN24 e-12 r12 e-12 ]8
+C o4 q7 MPOF
+C c4 < g4 > c4 < g4 > c4 < g4 > c4 < b-4 >
+C [ e-4 < b-4 > ]4
+D o0 EN8
+D [ n8,1 r1 ]2
+
+A @@12 @v13 o4 MPOF ENOF
+A f6 g+12 g12 g+12 b-12 > c6 d12 e-6 d12
+A c+6 c12 < b-6 g+12 g6 a12 b6 > d12 <
+A g+6 b-12 > c12 < b-12 g+12 f6 g12 g+6 > c12 <
+A g12 d12 g12 b12 g12 b12 > d12 < b12 > d12 f12 e-12 d12
+B @@0 @v20 o3 MP2
+B [ EN23 f12 r12 f12 ]2 [ EN24 e-12 r12 e-12 ]2
+B [ EN24 c+12 r12 c+12 ]2 < [ EN23 b12 r12 b12 ]2 >
+B [ EN23 c12 r12 c12 ]2 [ EN25 c12 r12 c12 ]2
+B [ EN27 c12 r12 c12 ]2 < [ EN28 b12 r12 b12 ]2 >
+C o4 q7 MPOF
+C f4 c4 c4 < g4 > c+4 < g+4 g4 b4
+C g+4 > c4 < f4 g+4 g4 > d4 < g4 > d4
+D o0 EN8
+D n8,1 [ r1 ]3
+
+A @@1 @v21 o3 MP2 ENOF
+A f6 g+12 g12 g+12 b-12 > c6 d12 e-6 d12
+A c+6 c12 < b-6 g+12 g6 a12 b6 > d12 <
+A g+6 b-12 > c12 < b-12 g+12 f6 g12 g+6 > c12 <
+A g12 d12 g12 b12 g12 b12 > d12 < b12 > d12 f12 e-12 d12
+B @@0 @v20 o3 MP2
+B [ EN23 f12 r12 f12 ]2 [ EN24 e-12 r12 e-12 ]2
+B [ EN24 c+12 r12 c+12 ]2 < [ EN23 b12 r12 b12 ]2 >
+B [ EN23 c12 r12 c12 ]2 [ EN25 c12 r12 c12 ]2
+B [ EN27 c12 r12 c12 ]2 < [ EN28 b12 r12 b12 ]2 >
+C o4 q7 MPOF
+C f4 c4 c4 < g4 > c+4 < g+4 g4 b4
+C g+4 > c4 < f4 g+4 g4 > d4 < g4 > d4
+D o0 EN8
+D n8,1 [ r1 ]3
+
+A @@0 @v21 o4 MP0 EN12
+A c6 r12 < g6 > c12 < b-6 r12 f6 b-12 g+6 r12 e-6 g+12 g6 r12 g12 a12 b12 >
+A c6 r12 < g6 > c12 d6 r12 < g6 r12 > e-6 d12 e-6 g12 f4^8 r8
+A c6 r12 < g6 > c12 < b-6 r12 f6 b-12 g+6 r12 e-6 g+12 g6 r12 g12 a12 b12 >
+A c6 r12 < g6 > c12 c+6 r12 f6 r12 g6 g+12 g6 f12 g6 r12 d6 r12
+B @@11 @v20 o4 MP0 ENOF
+B r4 EN83 c4 < r4 EN84 b-4 r4 g+4 r4 g4 >
+B r4 EN83 c4 < r4 EN35 b4 r4 EN82 b-4 r4 EN35 a4 >
+B r4 EN83 c4 < r4 EN84 b-4 r4 g+4 r4 g4 >
+B r4 EN34 c4 r4 EN43 c+4 r4 EN34 c4 r4 < EN35 b4 >
+C o4 q7 MP0
+C c2 < b-2 g+2 g2 > c2 < g2 > e-2 f2
+C c2 < b-2 g+2 g2 > c2 c+2 < g2 > g2
+D o0 EN8
+D n8,4 n8,2 n8,4
+D [ r4 n8,4 r4 n8,4 ]7
+
+A @@0 @v20 o4 MP0 ENOF
+A r4 EN83 c4 < r4 EN84 b-4 r4 g+4 r4 g4 >
+A r4 EN83 c4 < r4 EN35 b4 r4 EN82 b-4 r4 EN35 a4 >
+A r4 EN83 c4 < r4 EN84 b-4 r4 g+4 r4 g4 >
+A r4 EN34 c4 r4 EN43 c+4 r4 EN34 c4 r4 < EN35 b4 >
+B @@11 @v21 o4 MP0 EN12
+B c6 r12 < g6 > c12 < b-6 r12 f6 b-12 g+6 r12 e-6 g+12 g6 r12 g12 a12 b12 >
+B c6 r12 < g6 > c12 d6 r12 < g6 r12 > e-6 d12 e-6 g12 f4^8 r8
+B c6 r12 < g6 > c12 < b-6 r12 f6 b-12 g+6 r12 e-6 g+12 g6 r12 g12 a12 b12 >
+B c6 r12 < g6 > c12 c+6 r12 f6 r12 g6 g+12 g6 f12 g6 r12 d6 r12
+C o4 q7 MP0
+C c2 < b-2 g+2 g2 > c2 < g2 > e-2 f2
+C c2 < b-2 g+2 g2 > c2 c+2 < g2 > g2
+D o0 EN8
+D [ r4 n8,4 r4 n8,4 ]8
+
+A @@0 @v21 o4 MP0 EN12
+A g6 g+12 g6 f12 g6 r12 d6 r12
+B @@11 @v20 o4 MP0 ENOF
+B r4 EN34 c4 r4 < EN35 b4 >
+C r1
+D r1
+
+A [ r1 ]4
+B @@11 @v20 o4 MP1 ENOF
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+B [ < g+24 > c24 e-24 g+24 > c24 e-24 g+24 e-24 c24 < g+24 e-24 c24 ]2
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+B [ < b-24 > c+24 f+24 b-24 > c+24 f+24 b-24 f+24 c+24 < b-24 f+24 c+24 ]2
+C o4 q7 MP0
+C c2^8^16 r16 < g8^16 r16 g+2^8^16 r16 g8^16 r16 >
+C c2^8^16 r16 < g8^16 r16 f+2 > c+2
+D o0 EN8
+D [ n8,1 ]3 n8,2 n8,2
+
+A @@0 @v21 o4 MP1 ENOF
+A c2^8^16 r16 < g8^16 r16 g+2^8^16 r16 g8^16 r16 >
+A c2^8^16 r16 < g8^16 r16 f+2 > c+2
+B @@11 @v20 o4 MP1 ENOF
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+B [ < g+24 > c24 e-24 g+24 > c24 e-24 g+24 e-24 c24 < g+24 e-24 c24 ]2
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+B [ < b-24 > c+24 f+24 b-24 > c+24 f+24 b-24 f+24 c+24 < b-24 f+24 c+24 ]2
+C o4 q7 MP0
+C c2^8^16 r16 < g8^16 r16 g+2^8^16 r16 g8^16 r16 >
+C c2^8^16 r16 < g8^16 r16 f+2 > c+2
+D o0 EN8
+D [ n8,1 ]3 n8,2 n8,2
+
+A @@0 @v21 o4 MP1 EN12
+A c2^8^16 r16 < g8^16 r16 g+2^8^16 r16 g8^16 r16 >
+A c4^8^16 r16 < g4^8^16 r16 b4^8^16 r16 > d4^8^16 r16
+B @@11 @v20 o4 MP1 ENOF
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+B [ < g+24 > c24 e-24 g+24 > c24 e-24 g+24 e-24 c24 < g+24 e-24 c24 ]2
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+B < b24 > d24 g24 b24 > d24 g24 b24 g24 d24 < b24 g24 d24
+B < b-24 > d24 g24 b24 > d24 g24 b24 g24 d24 < b24 g24 d24
+C o4 q7 MP0
+C c2^8^16 r16 < g8^16 r16 g+2^8^16 r16 g8^16 r16 >
+C c4^8^16 r16 < g4^8^16 r16 b4^8^16 r16 > d4^8^16 r16
+D o0 EN8
+D [ n8,1 ]3 n8,2 n8,2
+
+A @@0 @v21 o4 MP1 EN12
+A c2^4^6 r12
+B @@11 @v20 o4 MP1 ENOF
+B [ c24 e-24 g24 > c24 e-24 g24 > c24 < g24 e-24 c24 < g24 e-24 ]2
+C o4 q7 MP0
+C c2^4^6 r12
+D o0 EN8
+D n8,1
+
+A c12 r12
+A @@0 @v20 o3 MP2
+A EN34 c12 [ EN34 r6 c12 ]3 [ EN88 r6 c12 ]4
+B @@11 @v12 o5 MPOF ENOF
+B [ c16 < g16 g+16 g16 > ]4 [ c16 < f+16 g+16 f+16 > ]4
+C o4 q7 MP0
+C c6 r12 < g6 r12 > c6 r12 < g6 r12 >
+C c6 r12 < g+6 r12 > c6 r12 < g+6 r12 >
+D o0 EN8
+D n8,1 r1
+
+A @@0 @v21 o4 MP1 EN12
+A e-2^8^16 r16 < b-8^16 r16 b2^8^16 r16 b-8^16 r16 >
+B @@11 @v20 o4 MP1 ENOF
+B [ e-24 g24 b-24 > e-24 g24 b-24 > e-24 < b-24 g24 e-24 < b-24 g24 ]2
+B [ < b24 > e-24 f+24 b24 > e-24 f+24 b24 f+24 e-24 < b24 f+24 e-24 ]2
+C o4 q7 MP0
+C e-2^4^8^16 r16 < b2^4^8^16 r16
+D o0 EN8
+D [ n8,1 ]2
+
+A g+12 r12
+A @@0 @v20 o3 MP2
+A EN34 f12 [ EN34 r6 f12 ]3 [ EN88 r6 f12 ]4
+B @@11 @v12 o5 MPOF ENOF
+B [ f16 c16 c+16 c16 ]4 [ f16 < b16 > c+16 < b16 > ]4
+C o4 q7 MP0
+C f6 r12 c6 r12 f6 r12 c6 r12
+C f6 r12 c+6 r12 f6 r12 c+6 r12
+D o0 EN8
+D n8,1 r1
+
+A @@0 @v21 o4 MP1 EN12
+A g+2^8^16 r16 e-8^16 r16 e2^8^16 r16 e-8^16 r16
+B @@11 @v20 o4 MP1 ENOF
+B [ < b24 > e-24 g+24 b24 > e-24 g+24 b24 g+24 e-24 < b24 g+24 e-24 ]2
+B [ < g24 b24 > e24 g24 b24 > e24 g24 e24 < b24 g24 e24 < b24 ]2
+C o4 q7 MP0
+C g+2^4^8^16 r16 e2^4^8^16 r16
+D o0 EN8
+D [ n8,1 ]2
+
+A @@11 @v20 o5 MP0 ENOF
+A c2 c+4 < b-4 > c4^8 c+8 c2 c2 c+4 < b-4 > c2 c+4 e-8 e8
+A @@0 @v21 o4 MP0 EN12
+A r4 [ [ f24 r24 ]3 f2^12 r6 ]3 [ f24 r24 ]3 f2
+B @@11 @v20 o4 MP0 EN12
+B [ c12 r6 ]4 < [ b-12 r6 ]4 [ g+12 r6 ]4 [ f+12 r6 ]4
+B [ f12 r6 ]4 [ e-12 r6 ]4 [ c+12 r6 ]4 < [ b12 r6 ]4
+C o6 q7 MP0
+C c2 c+4 < b-4 > c4^8 c+8 c2 c2 c+4 < b-4 > c2 c+4 e-8 e8
+C f2 f+4 e-4 f4^8 f+8 f2 f2 f+4 e-4 f2 f+4 g+4
+D o0 EN8
+D n8,1 [ r1 ]3
+D [ n8,1 ]4
+
+A @@0 @v21 o5 MP0 ENOF
+A [ c+2 << a2 >> c2 << f2 >> ]2
+A < [ f+2 < b2 > g2 < g2 > ]2
+B @@11 @v20 o5 MP0 ENOF
+B [ EN35 c+2 r2 EN54 c2 r2 ]2
+B < [ EN85 f+2 r2 EN84 g2 r2 ]2
+C o3 q7 MP0
+C [ r2 a2 r2 f2 ]2 [ r2 b2 r2 g2 ]2
+D o0 EN8
+D [ r2 n8,2 ]8
+
+A @@12 @v12 o6 MPOF ENOF l16
+A e e < b b > c c < a a b b g g a a f+ f+
+A e e < b b > c c < a a b b g g a a f+ f+
+A e e < b b > c c < a a b b g g a a f+ f+
+A b- f b- > d f d f b- > d < b- > d f b- f b- > f <
+A e e < b b > c c < a a b b g g a a f+ f+
+A e e < b b > c c < a a b b g g a a f+ f+
+A e e < b b > c c < a a b b g g a a f+ f+
+A b- f b- > d f d f b- > d < b- > d f b- f b- > f <
+B @@0 @v21 o4 MP0 ENOF
+B [ [ EN45 g8^16 r16^4^2 ]3 EN43 b-8^16 r16^4^2 ]2
+C [ r1 ]4
+C o3 q7 MPOF
+C e1 g1 b1 b-1
+D o0 EN8
+D [ n8,1 ]8
+
+A @@11 @v21 o5 MP0 ENOF
+A [ d < b g+ g f d < b b- g+ f d c+ < b g+ f e >>> ]4
+A [ r1 ]2
+B @@0 @v21 o3 MP0 ENOF
+B EN33 f1^4^6 r12 [ f12 r12 ]3
+B EN33 g+1^4^6 r12 [ g+12 r12 ]3
+B EN33 b2^4^6 r12 [ b12 r12 ]6
+C o6 q7 l16 MP0
+C r1
+C d < b g+ g f d < b b- g+ f d c+ < b g+ f e >>>
+C r1
+C d < b g+ g f d < b b- g+ f d c+ < b g+ f e >>>
+C [ d < b g+ g f d < b b- >> ]4
+D o0 EN8
+D [ n8,1 ]4
+D [ n8,2 ]2
+D [ n8,4 ]4
+
+A @@2 @v21 o4 MP0 ENOF
+A r4 EN24 e-4 r4 EN23 f+4 r4 g4 r4 a8 r8
+A r4 EN24 e-4 r4 EN23 f+4 r4 EN24 e-4 r4 d8 r8
+B @@11 @v20 o4 MP0 ENOF
+B [
+B e-24 g24 b-24 > e-24 g24 b-24 > e-24 < b-24 g24 e-24 < b-24 g24
+B d24 f+24 a24 > d24 f+24 a24 > d24 < a24 f+24 d24 < a24 f+24
+B ]2
+B e-24 g24 b-24 > e-24 g24 b-24 > e-24 < b-24 g24 e-24 < b-24 g24
+B f+24 a24 > d24 f+24 a24 > d24 f+24 d24 < a24 f+24 d24 < a24
+B g24 b-24 > e-24 g24 b-24 > e-24 g24 e-24 < b-24 g24 e-24 < b-24
+B a24 > d24 f+24 a24 > d24 f+24 a24 f+24 d24 < a24 f+24 d24 <
+C o4 q7 l4 MP0
+C c2 d2 e-2 f+2 c2 < a2 g2 f+2
+D o0 EN8
+D n8,1 [ r1 ]3
+
+A @@2 @v21 o4 MP0 ENOF
+A r4 EN24 e-4 r4 EN23 f+4 r4 g4 r4 a8 r8
+A r4 EN24 e-4 r4 EN23 f+4 r4 EN24 e-4 r4 d8 r8
+B @@11 @v20 o4 MP0 ENOF
+B [
+B e-24 g24 b-24 > e-24 g24 b-24 > e-24 < b-24 g24 e-24 < b-24 g24
+B d24 f+24 a24 > d24 f+24 a24 > d24 < a24 f+24 d24 < a24 f+24
+B ]2
+B e-24 g24 b-24 > e-24 g24 b-24 > e-24 < b-24 g24 e-24 < b-24 g24
+B f+24 a24 > d24 f+24 a24 > d24 f+24 d24 < a24 f+24 d24 < a24
+B g24 b-24 > e-24 g24 b-24 > e-24 g24 e-24 < b-24 g24 e-24 < b-24
+B a24 > d24 f+24 a24 > d24 f+24 a24 f+24 d24 < a24 f+24 d24 <
+C o5 q7 MP0
+C EN23 c2 EN24 d2 e-2 EN23 f+2
+C EN23 c2 < EN25 a2 g2 EN23 f+2
+D o0 EN8
+D n8,1 [ r1 ]3
+
+A @@0 @v20 o3 MP2 ENOF
+A [ c8 r8 d8 r8 e-8 r8 f+8 r8 < a8 r8 b8 r8 > c8 r8 e-8 r8 ]2
+A @@0 @v20 o3 MP2 EN13
+A [ c8 r8 d8 r8 e-8 r8 f+8 r8 < a8 r8 b8 r8 > c8 r8 e-8 r8 ]2
+B @@11 @v20 o4 MP0 ENOF
+B [
+B [ EN35 c8 r8 EN43 d8 r8 ]2
+B [ EN54 c8 r8 EN45 d8 r8 ]2
+B ]4
+C o3 q7 ENOF
+C [ g+4 f+4 g+4 f+4 f4 e-4 f4 e-4 ]3
+C o4 q7 MP0 ENOF
+C c12 e-12 g+12 f+12 a12 > d12 < g+12 > c12 e-12 < a12 > d12 f+12 <
+C a12 > c12 f12 < b12 > e-12 f+12 c12 f12 a12 e-12 f+12 b12 <
+D o0 EN8
+D [ n8,1 ]8
+
+A @@0 @v20 o3 MP2 ENOF
+A [ c1 < g+1 > ]2
+B @@0 @v20 o3 MP0 ENOF
+B [ r2 EN24 e-2 r2 EN25 e-2 ]2
+C o5 q7 MP0 ENOF
+C [
+C c8 d16 e16 f16 g16 a16 b16 [ > c16 < b16 ]3 > c16 r16 <
+C g+8 b-16 > c16 c+16 e-16 f16 g16 [ g+16 a16 ]3 g+16 r16
+C ]2
+D o0 EN8
+D [ r2 n8,2 ]4
+
+A @@11 @v21 o4 MP0 ENOF
+A [
+A c8 d16 e16 f16 g16 a16 b16 [ > c16 < b16 ]3 > c16 r16 <
+A g+8 b-16 > c16 c+16 e-16 f16 g16 [ g+16 a16 ]3 g+16 r16
+A ]2
+B @@0 @v20 o5 MP0 ENOF
+B [ r2 EN24 e-2 r2 EN25 e-2 ]2
+C o4 q7 MPOF ENOF
+C [ c1 < g+1 > ]2
+D o0 EN8
+D [ r2 n8,2 ]4
+
+A @@2 @v21 o5 MP0 ENOF
+A d6 f12 e12 f12 e12 d6 a12 b-6 a12
+A d6 f12 e12 f12 e12 d6 r12 c4
+A f6 a12 g12 a12 g12 f6 > c12 d6 c12 <
+A f6 a12 g12 a12 g12 f6 r12^4
+B @@0 @v20 o3 MP0 ENOF
+B [ EN23 d6 d12 ]7 EN24 c6 c12
+B [ EN24 f6 f12 ]8
+C o4 q7 MPOF ENOF
+C d4 < a4 > d4 < a4 > d4 < a4 > d4 c4
+C f4 c4 f4 c4 f4 c4 f4 c4
+D o0 EN8
+D n8,1 [ r1 ]3
+
+A @@2 @v21 o4 MP0
+A g6 b-12 a12 b-12 > c12 d6 e12 f6 e12
+A e-6 d12 c6 < b-12 a6 b12 > c+6 e12 <
+A b-6 > c12 d12 c12 < b-12 g6 a12 b-6 > d12 <
+A a12 e12 a12 > c+12 < a12 > c+12 e12 c+12 e12 g12 f12 e12
+B @@0 @v20 o3 MP0 ENOF
+B [ EN23 g6 g12 ]2 [ EN24 f6 f12 ]2 [ EN24 e-6 e-12 ]2 [ EN23 c+6 c+12 ]2
+B [ EN23 d6 d12 ]2 [ EN25 d6 d12 ]2 [ EN27 d6 d12 ]2 [ EN28 c+6 c+12 ]2
+C o4 q7 MPOF ENOF
+C g4 d4 d4 < a4 > e-4 < b-4 a4 > e4 <
+C b-4 > f4 < g4 > d4 < a4 > e4 < a4 > e4
+D [ r1 ]4
+
+A @@11 @v21 o3 MP1 EN12
+A g6 b-12 a12 b-12 > c12 d6 e12 f6 e12
+A e-6 d12 c6 < b-12 a6 b12 > c+6 e12 <
+A b-6 > c12 d12 c12 < b-12 g6 a12 b-6 > d12 <
+A a12 e12 a12 > c+12 < a12 > c+12 e12 c+12 e12 g12 f12 e12
+B @@0 @v20 o3 MP0 ENOF
+B [ EN23 g6 g12 ]2 [ EN24 f6 f12 ]2 [ EN24 e-6 e-12 ]2 [ EN23 c+6 c+12 ]2
+B [ EN23 d6 d12 ]2 [ EN25 d6 d12 ]2 [ EN27 d6 d12 ]2 [ EN28 c+6 c+12 ]2
+C o4 q7 MPOF ENOF
+C g4 d4 d4 < a4 > e-4 < b-4 a4 > e4 <
+C b-4 > f4 < g4 > d4 < a4 > e4 < a4 > e4 <
+D o0 EN8
+D n8,1 [ r1 ]3
+
+A @@0 @v20 o2 MP0 ENOF
+A g+4 > e-4 < g+4 > e-4 <
+A g4 > d4 < g4 > d4
+B @@1 @v20 o3 MP0 ENOF
+B [ EN23 c6 c12 ]4 < [ EN23 b6 b12 ]4 >
+C o5 q7 MP0 ENOF
+C g+12 e-12 g+12 > c12 < g+12 > c12 e-12 c12 e-12 f+12 f12 e-12
+C g12 d12 g12 b12 g12 b12 > d12 < b12 > d12 f12 e-12 d12
+D o0 EN8
+D [ n8,1 ]2
+
+A @@0 @v21 o2 MP1 ENOF
+A c8^16 e-16 d12 e-12 d12 c2^1
+B ENOF
+B c4 r4^2
+B @@11 @v21 o4 MP1 ENOF
+B c8^16 e-16 d12 e-12 d12 c2
+C c4 r4
+C o3 q7 MPOF ENOF
+C c8^16 e-16 d12 e-12 d12
+C c2 >> c8^16 e-16 d12 e-12 d12
+D o0 EN8
+D n8,1 r1

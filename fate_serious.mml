@@ -1,0 +1,82 @@
+#TITLE Mother 3 - Fate / Serious
+#COMPOSER Shogo Sakai
+#MAKER Victoria Lacroix
+
+#INCLUDE macro.mml
+
+ABCD L t140
+A @v21 @@1 ENOF MP2 o4
+B @v12 @@11 MP1 l8 o3
+C l8 q7 o3
+D @v11 l8 o0
+
+D [ ; Closed at the end
+
+A c8 d8 c8 < g1 < b-8 > c8 e-8 f8 g8
+A b-8 > c8 < b-8 g+1 > d8 e-8 d8 c8 < g8 >
+C c r > c r < c c > c r < c c c c r c > c r <
+C < g+ r > g+ r < g+ g+ > g+ r < g+ g+ g+ g+ r g+ > g+ r
+
+A c8 d8 c8 < g1 < b-8 > c8 e-8 f8 g8
+A b-8 > c8 < b-8 g+2^4 > d8 e-8 d8 c8 < b-8 g+8 g8
+C c r > c r < c c > c r < c c c c r c > c r <
+C < g+ r > g+ r < g+ g+ > g+ r < g+ g+ g+ g+ r g+ > g+ r
+
+B [
+B EN24 e- r e- r e- e- e- r e- e- e- e- r e- e- r
+B EN23 c r c r c c c r c c c c r c c r
+B ]2
+
+A f2^8 r8 e-8 f8 g2^8 r8 b-8^16^32 r32
+A g+2^8 r8 g8 g+8 b-4^16 r16^8 > c8^16^32 r32 d8^16^32 r32
+C [ f r > f r < f f > f r < g g g g r g > g r < ]2
+
+B EN24 @v21 < [
+B g+2^4^8^16 r16 b-2^4^8^16 r16
+B ]2 >
+
+D [
+D @v12 n3 @v11 n1 EN0 n10 ENOF n1 n14 n14 EN0 n10 ENOF @v12 n4
+D @v11 n14 n14 EN0 n10 ENOF n14 n1 n14 EN0 n10 ENOF n14
+D ]6
+
+A [ e-4^16^32 r32^8 e-4^16^32 r32^8 d4^8^16 r16^8 < b8 > c8 r8 ]2
+B @v12 [
+B EN24 e- r e- r EN23 c c c r d d d d r < b- > c r
+B ]2
+C [ > c r > c r < < g+ g+ > g+ r b- b- b- b- r g > c r < ]2
+D @v12 l4 [
+D n5 EN0 n10 ENOF n3 EN0 n10 ENOF n3 EN0 n10 ENOF n3 EN0 n10 ENOF
+D ]2 @v1
+
+A @v21 @@11 ENOF MP2 o4
+B @v12 @@11 MP1 l8 o3
+C l8 q7 o3
+
+A c8 d8 c8 < g1 < b-8 > c8 e-8 f8 g8
+A b-8 > c8 < b-8 g+1 > d8 e-8 d8 c8 < g8 >
+B EN24 e- r e- r e- e- e- r e- e- e- e- r e- e- r
+B EN23 c r c r c c c r c c c c r c c r
+C c r > c r < c c > c r < c c c c r c > c r <
+C < g+ r > g+ r < g+ g+ > g+ r < g+ g+ g+ g+ r g+ > g+ r
+
+A c8 d8 c8 < g1 < b-8 > c8 e-8 f8 g8
+A b-8 > c8 < b-8 g+2^4 > d8 e-8 d8 c8 < b-8 g+8 g8
+B EN24 e- r e- r e- e- e- r e- e- e- e- r e- e- r
+B EN23 c r c r c c c r c
+B @v21 @@11 ENOF MP1 o4
+B f g f e- d c < b-
+C c r > c r < c c > c r < c c c c r c > c r <
+C < g+ r > g+ r < g+ g+ > g+ r < g+ g+ g+ g+ r g+ > g+ r
+
+A f2^8 r8 e-8 f8 g2^8 r8 b-8^16^32 r32
+A g+2^8 r8 g8 g+8 b-4^16 r16^8 > c8^16^32 r32 d8^16^32 r32
+B g+2^8 r8 g8 g+8 b-2^8 r8 > d8^16^32 r32
+B c2^8 r8 < b-8 > c8 d4^16^32 r32^8 e-8^16^32 r32 f8^16^32 r32
+C [ f r > f r < f f > f r < g g g g r g > g r < ]2
+
+A [ e-4^16^32 r32^8 e-4^16^32 r32^8 d4^8^16 r16^8 < b8 > c8 r8 ]2
+B [ g4^16^32 r32^8 g4^16^32 r32^8 f4^8^16 r16^8 d8 e-8 r8 ]2
+C [ > c r > c r < < g+ g+ > g+ r b- b- b- b- r g > c r < ]2
+
+D ]2 ; closes very first D loop

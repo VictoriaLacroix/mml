@@ -1,0 +1,162 @@
+#TITLE Click Clock Wood (Spring)
+#COMPOSER Grant Kirkhope
+#MAKER Victoria Lacroix
+
+#INCLUDE macro.mml
+
+#BANK-CHANGE 1
+#BANK-CHANGE 2
+
+ABCD t90
+
+A @@1 @v21 o4 MP1
+A c12 < g24 a12 g24 > c12 r24 c24 d24 e-24
+A e12 < b24 > c+12 < b24 > e12 r24 e24 f24 f+24
+A g12 d24 e12 d24 g12 d24 e12 d24
+A [ g24 a24 ]6 >
+B r1 r1
+C r1 r1
+D r1 r1
+
+ABCD L
+
+A [
+A c12 < g24 a12 g24 > c12 < g24 a12 g24 > c12 d24 e-12 e24^8 c8 <
+A b16 r16 b16 r16 b12 a24 g12 b12 r12^8^4
+A b12 g24 a12 g24 b12 g24 a12 g24 b12 > c24 c+12 d24^8 < b8 >
+A c16 r16 c16 r16 c12 < a24 g12 > c24 r2
+A ]2
+B @@12 @v12 o4
+B c8 r8 c8 r8 c8 r16 c16 r16 c8 r16 <
+B [ g8 r8 g8 r8 g8 r16 g16 r16 g8 r16 ]2 >
+B c8 r8 c8 r8 c8 r16 c16 r16 c8 r16
+B c8 r8 c8 r8 c8 r16 c16 r16 c8 r16 <
+B [ g8 r8 g8 r8 g8 r16 g16 r16 g8 r16 ]2 >
+B c8 r8 c8 r8 c8 r16 c16 r16 c8 r16
+C [ r1 ]4
+C q7 o5 MP1 ENOF
+C e12 c24 d12 c24 e12 c24 d12 c24 e12 f24 f+12 g24^8 e8
+C d16 r16 d16 r16 d12 c24 < b12 > d24 r2
+C d12 < b24 > c12 < b24 > d12 < b24 > c12 < b24 > d12 e-24 e12 f24^8 d8
+C e16 r16 e16 r16 e12 d24 c12 e24 r2
+D @v11 o0 EN0
+D [ r8 n3,8 ]16
+D [ r8 n3,8 n13,8 n3,8 ]8
+
+A < a8 r8 a12 b24 > c24 r12 e24 r12 c24 r12 < g8 r8
+A a8 r8 a12 b24 > c8 e24 r12 < g24 f+24 g24 g+8 g16 r16
+A a8 r8 a12 b24 > c8 e24 r12 c24 r12 < g8 r16 > d48 e48 f48
+A r8 d24 r12 g24 r12 g12 a24 g24 r12 f24 r12 e24 r12 d24 r12
+B @@12 @v12 o4
+B [ f8 r8 f8 r8 c8 r16 c16 r16 c12 r24^16 ]3
+B d8 r8 d8 r8 < g8 r16 g16 r16 g12 r24^16 >
+C [ r8 EN24 f16 r16^8 f16 r16^8 EN23 e16 r16^12 e24 e24 r12 ENOF ]3
+C r8 EN23 d16 r16^8 d16 r16^8 < EN23 b16 r16^12 b24 b24 r12 ENOF >
+D [ r8 n3,8 n13,8 n3,8 ]8
+
+A c12 < g24 a12 g24 > c12 < g24 a12 g24 > c12 d24 e-12 e24^8 c8 <
+A b16 r16 b16 r16 b12 a24 g12 b12 r12^8^4
+A b12 g24 a12 g24 b12 g24 a12 g24 b12 > c24 c+12 d24^8 < b8 >
+A c16 r16 c16 r16 c12 < a24 g12 > c24 r2
+B @2 @v21 MP1
+B c2 r8 c12 r24 d12 r24 c12 r24 < b6 r12 g6 r12 b6 r12 > d6 r12
+B f2 r8 f12 r24 e12 r24 d12 r24
+B c6 r12 < g6 r12 > c12 r24 < b12 r24 a12 r24 g12 r24 >
+C e12 c24 d12 c24 e12 c24 d12 c24 e12 f24 f+12 g24^8 e8
+C d16 r16 d16 r16 d12 c24 < b12 > d24 r2
+C d12 < b24 > c12 < b24 > d12 < b24 > c12 < b24 > d12 e-24 e12 f24^8 d8
+C e16 r16 e16 r16 e12 d24 c12 e24 r2
+D [ r8 n3,8 n13,8 n3,8 ]8
+
+A EN12 c16 r16 < g16 r16 b16 r16 f+16 b-24 r12 b-16 f24 r12 a24 r12 e24 r12
+A g+16 e-24 r12 g16 d24 r12 f+16 c+24 r12 f16 c24 r12 ENOF g12 a24 b-12 b24 >
+B c16 r16 < g16 r16 b16 r16 f+16 b-16 r16 b-16 f16 r16 a16 r16 e16 r16
+B g+16 e16 r16 g16 d16 r16 f+16 c+16 r16 f16 c16 r16 r4
+C EN43 c16 r16^8 < b16 r8 b-16 r16 b-16 r8 a16 r16^8
+C g+16 r8 g16 r8 f+16 r8 f16 r8 ENOF g12 a24 b-12 b24 >
+D n6,8 n8,8 n6,8 n8,16 n6,8 n6,16 n8,8 n6,8 n8,8
+D n6,16 n8,8 n6,16 n8,8 n6,16 n8,8 n6,16 n8,8 [ n7,48 ]12
+
+A [
+A c12 < g24 a12 g24 > c12 < g24 a12 g24 > c12 d24 e-12 e24^8 c8 <
+A b16 r16 b16 r16 b12 a24 g12 b12 r12 r8^4
+A b12 g24 a12 g24 b12 g24 a12 g24 b12 > c24 c+12 d24^8 < b8 >
+A c16 r16 c16 r16 c12 < a24 g12 > c24 r2
+A ]2
+B @@0 @v21 MP1
+B [
+B c8 r8 g8 r8 c8 r8 e8 f8 g8 r8 d8 r8 g8 r8 d12 r24 f+8
+B g8 r8 d8 r8 g8 r8 d12 r24 f8
+B e8 r8 g8 r12 g24 > c24 r24 c24 < b16 r16 a16 r16 g24 r12
+B ]2
+C c8 EN24 c24 r24 c24 [ r8 c24 r24 c24 ]3 ENOF <
+C [ r8 EN26 b24 r24 b24 ]8 ENOF >
+C [ r8 EN24 c24 r24 c24 ]4 ENOF
+C e12 c24 d12 c24 e12 c24 d12 c24 e12 f24 f+12 g24^8 e8
+C d16 r16 d16 r16 d12 c24 < b12 > d24 r2
+C d12 < b24 > c12 < b24 > d12 < b24 > c12 < b24 > d12 e-24 e12 f24^8 d8
+C e16 r16 e16 r16 e12 d24 c12 e24 r2
+D [ n13,8 n10,12 n3,24 ]32
+
+A < a8 r8 a12 b24 > c24 r12 e24 r12 c24 r12 < g8 r8
+A a8 r8 a12 b24 > c8 e24 r12 < g24 f+24 g24 g+8 g16 r16
+A a8 r8 a12 b24 > c8 e24 r12 c24 r12 < g8 r16 > d48 e48 f48
+A r8 d24 r12 g24 r12 g12 a24 g24 r12 f24 r12 e24 r12 d24 r12
+B @@12 @v12 MPOF
+B [ r8 EN24 f16 r16^8 f16 r16^8 EN23 e16 r16^12 e24 e24 r12 ENOF ]3
+B r8 EN23 d16 r16^8 d16 r16^8 < EN23 b16 r16^12 b24 b24 r12 ENOF >
+C [ f6 r12 f8 r8 c8 r8 c16 r16 e8 ]2
+C f8 r8 f8 r8 c8 r8 c8 r8 d8 r8 d8 r8 < g24 r24 g24 g24 r12 b6 r12 >
+D [ n13,8 n10,12 n3,24 ]16
+
+A c16 r16^8^4^2
+A @@2 o4
+A r12 g24 > c24 < g24 > c24 < g2 r4
+A @@1
+A r12 g24 > c24 < g24 > c24 < g2 r4
+A @@2 o5
+A r1
+B [ c8 < c8 > c8 < c8 > c8 < c12 > c24 r12 c24 < c8 > ]4
+C c8 r8^4^2
+C [ r1 ]3
+D [ r8 n3,8 n13,8 n3,8 ]8
+
+A @@2
+A [
+A c12 < g24 a12 g24 > c12 < g24 a12 g24 > c12 d24 e-12 e24^8 c8 <
+A b16 r16 b16 r16 b12 a24 g12 b12 r12^8^4
+A b12 g24 a12 g24 b12 g24 a12 g24 b12 > c24 c+12 d24^8 < b8 >
+A c16 r16 c16 r16 c12 < a24 g12 > c24 r2
+A ]2
+B [ c8 < c8 > c8 < c8 > c8 < c12 > c24 r12 c24 < c8 > ]8
+C [ r1 ]4
+C e12 c24 d12 c24 e12 c24 d12 c24 e12 f24 f+12 g24^8 e8
+C d16 r16 d16 r16 d12 c24 < b12 > d24 r2
+C d12 < b24 > c12 < b24 > d12 < b24 > c12 < b24 > d12 e-24 e12 f24^8 d8
+C e16 r16 e16 r16 e12 d24 c12 e24 r2
+D [ r8 n3,8 n13,8 n3,8 ]16
+
+A @@0
+A < a8 r8 a12 b24 > c24 r12 e24 r12 c24 r12 < g8 r8
+A a8 r8 a12 b24 > c8 e24 r12 < g24 f+24 g24 g+8 g16 r16
+A a8 r8 a12 b24 > c8 e24 r12 c24 r12 < g8 r16 > d48 e48 f48
+A r8 d24 r12 g24 r12 g12 a24 g24 r12 f24 r12 e24 r12 d24 r12
+A c8 r8^4^2
+B [ c8 < c8 > c8 < c8 > c8 < c12 > c24 r12 c24 < c8 > ]4
+B @@2 @v21 MP1
+B > [ g24 a24 ]12
+C [ r8 EN24 f16 r16^8 f16 r16^8 EN23 e16 r16^12 e24 e24 r12 ENOF ]3
+C r8 EN23 d16 r16^8 d16 r16^8 < EN23 b16 r16^12 b24 b24 r12 ENOF >>
+C r1
+D [ r8 n3,8 n13,8 n3,8 ]10
+
+A @@1 @v21 MP1
+A EN12 c16 r16 < g16 r16 b16 r16 f+16 b-24 r12 b-16 f24 r12 a24 r12 e24 r12
+A g+16 e-24 r12 g16 d24 r12 f+16 c+24 r12 f16 c24 r12 ENOF g12 a24 b-12 b24 >
+B @@2 @v21 MP1
+B > c16 r16 < g16 r16 b16 r16 f+16 b-16 r16 b-16 f16 r16 a16 r16 e16 r16
+B g+16 e16 r16 g16 d16 r16 f+16 c+16 r16 f16 c16 r16 r4 @@12 @v12 MPOF
+C < EN43 c16 r16^8 < b16 r8 b-16 r16 b-16 r8 a16 r16^8
+C g+16 r8 g16 r8 f+16 r8 f16 ENOF r8^4 >
+D n6,8 n8,8 n6,8 n8,16 n6,8 n6,16 n8,8 n6,8 n8,8
+D n6,16 n8,8 n6,16 n8,8 n6,16 n8,8 n6,16 n8,8 [ r48 ]12

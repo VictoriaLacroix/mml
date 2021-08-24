@@ -1,0 +1,47 @@
+; macro.mml
+; pre-defined reusable macros
+
+@0 = { 0 }
+@1 = { 1 }
+@2 = { 2 }
+@10 = { 2 1 | 0 } ; pluck
+@11 = { 2 1 0 | 1 } ; guitar
+@12 = { 2 1 | 2 } ; xylophone
+
+@v0 = { 15 } ; high
+@v10 = { 6 5 4 3 3 2 2 1 1 1 | 0 } ; quiet hit
+@v11 = { 9 7 5 4 4 3 3 2 2 2 1 1 1 1 | 0 } ; low hit
+@v12 = { 12 10 8 6 5 5 4 4 3 3 3 2 2 2 2 1 1 1 1 | 0 } ; mid hit
+@v13 = { 15 13 11 9 8 7 7 6 6 5 5 5 4 4 4 4 3 3 3 3 2 2 2 2 2 1 1 1 1 1 | 0 } ; loud
+@v20 = { 3 6 10 8 6 6 5 5 5 4 4 4 4 | 3 } ; small trumpet
+@v21 = { 6 9 12 15 13 12 11 10 9 9 8 8 8 | 7 } ; loud trumpet
+
+@EN0 = { -2 1 1 | 0 } ; noise smack
+@EN1 = { 2 -1 -1 | 0 } ; reverse smack
+@EN7 = { 0 0 0 | 1 1 1 0 -3 0 } ; small crash
+@EN8 = { 0 0 0 | 3 0 3 0 -6 0 } ; big crash
+@EN12 = { 0 0 0 | 12 0 0 -12 0 0 } ; octave
+@EN22 = { 0 0 0 | 2 0 0 -2 0 0 } ; diminished third
+@EN23 = { 0 0 0 | 3 0 0 -3 0 0 } ; minor third
+@EN24 = { 0 0 0 | 4 0 0 -4 0 0 } ; major third
+@EN25 = { 0 0 0 | 5 0 0 -5 0 0 } ; augmented third
+@EN26 = { 0 0 0 | 6 0 0 -6 0 0 } ; tritone
+@EN32 = { 0 0 0 | 3 0 2 0 -5 0 }
+@EN33 = { 0 0 0 | 3 0 3 0 -6 0 }
+@EN34 = { 0 0 0 | 3 0 4 0 -7 0 } ; minor triad
+@EN35 = { 0 0 0 | 3 0 5 0 -8 0 }
+@EN43 = { 0 0 0 | 4 0 3 0 -7 0 } ; major triad
+@EN44 = { 0 0 0 | 4 0 4 0 -8 0 }
+@EN45 = { 0 0 0 | 4 0 5 0 -9 0 }
+@EN53 = { 0 0 0 | 5 0 3 0 -8 0 }
+@EN54 = { 0 0 0 | 5 0 4 0 -9 0 }
+
+@EP0 = { -15 } ; slide down
+@EP1 = { 15 } ; slide up
+@EP10 = { 0 | -1 0 1 0 1 0 -1 0 } ; weak vibrato
+@EP11 = { 0 | -1 -1 1 1 1 1 -1 -1 } ; moderate vibrato
+@EP12 = { 0 | -2 -1 2 1 2 1 -2 -1 } ; strong vibrato
+
+@MP0 = { 8 2 1 }
+@MP1 = { 8 2 2 }
+@MP2 = { 8 2 3 }

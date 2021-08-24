@@ -1,0 +1,7 @@
+# ppmck files
+*.nsf
+ppmck/ppmck.nes
+
+# fceux files
+*.cdl
+*.nsf.ram.nl

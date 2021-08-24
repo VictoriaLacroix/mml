@@ -1,0 +1,184 @@
+#TITLE Spiral Mountain (BK Ver.)
+#COMPOSER Grant Kirkhope
+#MAKER Victoria Lacroix
+
+#INCLUDE macro.mml
+
+ABCD t110
+
+ABCD L
+
+A @@11 @v13 o5 MPOF
+A r1
+A c4 c8^16 d16 c8 < g8 g4 a8^16 g+16 a8 b8 > c4 < b8 a8 >
+A < g4 g8^16 a16 g8 e8 f8 d8 e2^8 g8 a8 b8 >
+A c4 c8^16 d16 c8 < g8 g4 > e8^16 e-16 e8 d8 c4 c8 c+8
+A d4 d8^16 e16 d4 < a4 b8^16 b-16 b8 a8 g8 g8 a8 b8 >
+B @@11 @v13 o4 MPOF
+B g24 d48^16^8 g24 e48^16^8 g24 f48 g24 f48^16 a16 g8 d8
+B @v11
+B [ < e16 > c16 < g16 > c16 ]4
+B [ < e16 > c8 c16 ]4
+B [ < d16 b16 g16 b16 > ]4
+B [ < e16 > c8 c16 ]4
+B [ < e16 > c16 < g16 > c16 ]4
+B < e16 b8 b16 g+16 b8 b16 a16 > c8 c16 < g16 > c8 c16
+B [ < f+16 > c8 c16 ]4
+C q6 o3
+C r8 g8 r8 g8 r8 g8 a8 b8 > c8 r8 < g8 r8 > c8 r8 < g8 > c8 <
+C a8 r8 > e8 r8 < a8 r8 a8 g+8 g8 r8 > d8 r8 < g8 g8 a8 b8 >
+C c8 r8 < g8 r8 > c8 < b8 a8 g8 > c8 r8 < g8 r8 > c8 r8 < g8 > c8
+C e8 r8 < g+8 r8 a8 r8 a8 r8 > d8 r8 < a8 r8 > d8 r8 < a8 r8
+D @v11 o0 EN0
+D n10,8 n14,8 n10,8 n14,8 n10,16 n16,8 n10,16 n10,8 n10,8
+D n6,8 n10,8 [ n14,8 n10,8 ]7
+D [ n14,8 n10,8 ]8
+D [ n14,8 n10,8 ]8
+D [ n14,8 n10,8 ]8
+
+A c4 c8^16 d16 c8 < g8 g4 > c4 c8^16 d16 c8 < g+8 g+4 >
+A c4 c8^16 d16 c8 < a8 a4 > c4 c8^16 d16 e-8 d8 c8 < g+8 >
+A c4 c8^16 d16 c8 < g8 g4 b8^16 b-16 b8 a8 g8 g8 a8 b8 >
+A c8 c16 c8 < b16 > c8 < g+8 > c16 c8 < b16 > c8
+B [ < d16 b16 g16 b16 > ]4
+B [ < e16 > c16 < g16 > c16 ]4
+B [ < e16 > c16 < g+16 > c16 ]4
+B [ < e16 > c16 < a16 > c16 ]4
+B [ < e16 > c16 < g+16 > c16 ]4
+B [ < e16 > c16 < g16 > c16 ]4
+B [ < d16 b16 g16 b16 > ]4
+B [ < e16 > c8 c16 ]2 [ < e-16 > c8 c16 ]2
+C g8 r8 > d8 r8 < g8 g8 a8 b8 > c8 r8 < g8 r8 > c8 r8 < g8 r8 >
+C c8 r8 < g+8 r8 > c8 r8 d8 e8 f8 r8 c8 r8 f8 r8 c8 r8
+C f8 r8 c8 r8 f8 r8 e8 d8 c8 r8 < g8 r8 > c8 r8 < g8 r8
+C g8 r8 > d8 r8 < g8 g8 a8 b8 > c8 r8 < g8 r8 g+8 r8 > e8 r8
+D n6,8 n10,8 [ n14,8 n10,8 ]7
+D [ n14,8 n10,8 ]8
+D [ n14,8 n10,8 ]8
+D n6,8 n10,8 [ n14,8 n10,8 ]3
+
+A @@0 @v21 o4 MP1
+A < g8 r8 b8 r8 > d16 d16 r8 f4
+B @@12 @v11 o4
+B EN43 c4 c4 c2 ENOF
+C o5 q8 MP1
+C g8 r8 g8 r8 g16 g16 r16 a16 g16 r16 d16 r16
+D n6,8 n14,8 n10,8 n14,8 n10,16 n16,8 n10,16 n10,8 n10,8
+
+A e2 r8 e16 r16 e-16 r16 e16 r16 e4^8^16^64 e-64 d64 c+64 c4^8^16 r16
+A d2 d16 r16 e16 r16 f4 e4 c4 < g4 > c4
+A e2 r8 e16 r16 e-16 r16 e16 r16 e4 g+4 a4 g4
+A f+2 r8 f+16 r16 g16 r16 f+16 r16 f2^8^16 r16 f4
+B [ < e16 > c16 < g16 > c16 ]4
+B [ < e16 > c8 c16 ]4
+B [ < d16 b16 g16 b16 > ]4
+B [ < e16 > c8 c16 ]4
+B [ < e16 > c16 < g16 > c16 ]4
+B < e16 b8 b16 g+16 b8 b16 a16 > c8 c16 < g16 > c8 c16
+B [ < f+16 > c8 c16 ]4
+B [ < d16 b16 g16 b16 > ]4
+C c8 r8 c8 r16 d16 c16 r16 < g16 r16 g8 r8
+C a8 r16 g+16 a16 r16 b16 r16 > c8 r8 < b16 r16 a16 r16
+C g8 r8 g8 r16 a16 g16 r16 e16 r16 f16 r16 d16 r16
+C e2 r8 g16 r16 a16 r16 b16 r16 >
+C c8 r8 c8 r16 d16 c16 r16 < g16 r16 g8 r16^32 > e-32
+C e8 r16 e-16 e16 r16 d16 r16 c8 r8 c16 r16 c+16 r16
+C d8 r8 d8 r16 e16 d8 r8 < a8 r16^32 b-32
+C b8 r16 b-16 b16 r16 a16 r16 g16 r16 g16 r16 a16 r16 b16 r16 >
+D n6,8 n10,8 [ n14,8 n10,8 ]7
+D [ n14,8 n10,8 ]8
+D [ n14,8 n10,8 ]8
+D [ n14,8 n10,8 ]8
+
+A e4^8 d16 r16 c8 r8 c8 d16 r16 e4^8 d16 r16 c8 r8 d8 e16 r16
+A [ f4^8^16 f80 e80 e-80 d80 c+80 c2 ]2
+A e2 r8 e16 r16 e-16 r16 e16 r16 f4 d4 < b4 > d4
+A c4^8^16 r16 c16 r16 d16 r16 e-8^16 r16 d16 r16 e16 r16 f+4 g4 f4
+B [ < e16 > c16 < g16 > c16 ]4
+B [ < e16 > c16 < g+16 > c16 ]4
+B [ < e16 > c16 < a16 > c16 ]4
+B [ < e16 > c16 < g+16 > c16 ]4
+B [ < e16 > c16 < g16 > c16 ]4
+B [ < d16 b16 g16 b16 > ]4
+B [ < e16 > c8 c16 ]2 [ < e-16 > c8 c16 ]2
+B [ < f+16 > c8 c16 ]2 [ < d16 > c8 c16 ]2
+C c8 r8 c8 r16 d16 c16 r16 < g16 r16 g8 r8 >
+C c8 r8 c8 r16 d16 c16 r16 < g+16 r16 g+8 r8 >
+C c8 r8 c8 r16 d16 c16 r16 < a16 r16 a8 r8 >
+C c8 r8 c8 r16 d16 e-16 r16 d16 r16 c16 r16 < g+16 r16 >
+C c8 r8 c8 r16 d16 c16 r16 < g16 r16 g8 r16^32 b-32
+C b8 r16 b-16 b16 r16 a16 r16 g16 r16 g16 r16 a16 r16 b16 r16 >
+C c16 r16 c16 c16 r16 < b16 > c16 r16 < g+16 r16 > c16 c16 r16 < b16 > c16 r16
+C < a16 r16 > c16 c16 r16 < b16 > c16 r16 < b8 a16 r16 g16 r16 f16 r16
+D n6,8 n10,8 [ n14,8 n10,8 ]7
+D [ n14,8 n10,8 ]8
+D [ n14,8 n10,8 ]8
+D n6,8 n10,8 [ n14,8 n10,8 ]7
+
+A @@0 @v21 MP1 o3
+A EN24 f8 f8 r8 f8 r8 f8 r8 f8 ENOF
+A EN23 e8 e8 r8 e8 r8 e8 r8 e8 ENOF
+A EN24 f8 f8 r8 f8 r8 f8 r8 f+8 ENOF
+A EN24 g8 g8 r8 g8 r8 g8 r8 f+8 ENOF
+A EN24 f8 f8 r8 f8 r8 f8 r8 f8 ENOF
+A EN23 e8 e8 r8 e8 r8 e8 r8 e8 ENOF
+A EN24 f8 f8 r8 f8 f+8 f+8 r8 f+8 ENOF
+A EN24 g8 g8 r8 g8 r8 g8 r8 g8 ENOF
+A MPOF
+B @@2 @v21 o6 MP1
+B f8 r16 g16 a16 r16 f16 r16 > [ c24 d24 ]6 <
+B c8 r16 d16 e16 r16 c16 r16 [ g24 a24 ]6
+B f8 r16 g16 a16 r16 f16 r16 > [ c24 d24 ]5 c24 r24 <
+B b16 r16 b16 r16 a16 r16 a16 r16 b16 r16 b16 r16 g16 r16 g16 r16
+B f8 r16 g16 a16 r16 f16 r16 > [ c24 d24 ]6 <
+B c8 r16 d16 e16 r16 c16 r16 [ g24 a24 ]6
+B f8 r16 g16 a16 r16 f16 r16 f+8 g8 a16 r16 f+16 r16
+B g8 r16 a16 b16 r16 g16 r16 b16 r16 > d16 r16 g16 r16^8 <
+B MPOF
+C q6 o4
+C f8 r8 c8 r8 f8 r8 c8 f8 c8 r8 < g8 r8 > c8 r8 < g8 > c8
+C f8 r8 c8 r8 f8 r8 c8 f+8 g8 r8 d8 r8 g8 r8 g8 f+8
+C f8 r8 c8 r8 f8 r8 c8 f8 c8 r8 < g8 r8 > c8 r8 < g8 > c8
+C f8 r8 c8 f8 f+8 r8 d8 f+8 g8 r8 d8 r8 < b8 r8 g8 r8
+D n6,8 n10,8 [ n14,8 n10,8 ]7
+D [ n14,8 n10,8 ]8
+D [ n14,8 n10,8 ]8
+D [ n14,8 n10,8 ]8
+
+A @@12 @v13 o5
+A c4 c8^16 d16 c8 < g8 g4
+A a8^16 g+16 a8 b8 > c4 < b8 a8
+A g4 g8^16 a16 g8 e8 f8 d8
+A e2^8 g8 a8 b8 >
+A c4 c8^16 d16 c8 < g8 g4 >
+A e8^16 e-16 e8 d8 c4 c8 c+8
+A d4 d8^16 e16 d4 < a4
+A b8^16 b-16 b8 a8 g8 g8 a8 b8 >
+B @@2 @v21 o3 MP1
+B c4 < g4 > c4 < g8 > c8 < a4 > e4 < a4 a8 g+8
+B g4 > d4 < g8 g8 a8 b8 > c4 < g4 > c8 < b8 a8 g8 >
+B c4 < g4 > c4 < g8 > c8 e4 < g+4 a4 a8 > e8
+B d4 < a4 > d4 < a4 g4 > d4 < g8 g8 a8 b8 >
+C [ r1 ]8
+D n6,8 n10,8 [ r8 n10,8 ]7
+D [ r8 n10,8 ]8
+D [ r8 n10,8 ]8
+D [ r8 n10,8 ]8
+
+A c4 c8^16 d16 c8 < g8 g4 >
+A c4 c8^16 d16 c8 < g+8 g+4 >
+A c4 c8^16 d16 c8 < a8 a4 >
+A c4 c8^16 d16 e-8 d8 c8 < g+8 >
+A c4 c8^16 d16 c8 < g8 g4
+A b8^16 b-16 b8 a8 g8 g8 a8 b8 >
+A c8 c16 c8 < b16 > c8 < g+8 > c16 c8 < b16 > c8
+A < a8 > c16 c8 < b16 > c8 < b8 a8 b8 a8
+B c4 < g4 > c4 < g4 > c4 < g+4 > c4 d8 e8
+B f4 c4 f4 c4 f4 c4 f4 e8 d8
+B c4 < g4 > c4 < g4 g4 > d4 < g8 g8 a8 b8 >
+B c4 < g4 g+4 > e-4 d4 < a4 g4 < @v20 g4 > @v21
+C [ r1 ]8
+D [ r8 n10,8 ]8
+D [ r8 n10,8 ]8
+D [ r8 n10,8 ]8
+D [ r8 n10,8 ]8

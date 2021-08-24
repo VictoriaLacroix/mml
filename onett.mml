@@ -1,0 +1,90 @@
+#TITLE Earthbound / MOTHER 2 - Onett
+#COMPOSER Suzuki / "Hip" Tanaka
+#MAKER Victoria Lacroix
+
+#INCLUDE macro.mml
+
+; setup
+ABCD L t117
+A @v13 @@11 o5
+B @v21 @@1 MP1 o4
+C o4 q4
+D o0 @v11 EN0 l8
+
+; intro
+AB [ r1 ]2
+C [ c8 d16 r16 e8 c16 r16 d8 < a16 r16 f8 > c16 r16 ]2
+D n15 n10 n6 n10 n15 n6 n10 n6
+D n15 n10 n6 n10 n15 [ n6,32 ]2 [ n6,16 ]3 n10
+
+; verse 1
+A r8 e8 g8 a8 e2 r8 e8 g8 a8 e16 e16 d8 c8 d8
+A r8 e8 g8 a8 e2 r8 e8 g8 a8 e8 d8 c8 d8
+A [ r8 c8 d8 e8 < a4 r4 > r8 c8 d8 e8 < a8 a4 g8 > ]2
+B [ r8 g8 b8 > c8 < g4 r4^8 g8 b8 > c8 < g8 f8 e8 f8 ]2
+B [ r8 e8 f8 g8 f4 r4^8 e8 f8 g8 f8 f8 r8 g8 ]2
+C [ c8 d16 r16 e8 c16 r16 d8 < a16 r16 f8 > c16 r16
+C c8 d16 r16 e8 c16 r16 d16 d16 < a16 r16 f8 > c16 r16 ]4
+D [ n15,8 n10,8 n6,8 n10,8 n15,8 n6,8 n10,8 n6,8 ]8
+
+A @@12
+B @@0 MP0 o5
+C q8
+D @v2
+
+; middle
+A f8 e8 f8 @v12 [ d24 ]6 [ g24 ]6 @v13 f8
+A e8 d8 e8 @v12 [ c24 ]6 [ f24 ]9 @v3
+A f8 e8 f8 @v12 [ g24 ]6 @v13 a8 @v12 [ b24 ]6 @v3
+A > c8 d8 e8 < @v12 [ a24 ]6 @v11 [ a24 ]6 a24 a12 @v3
+B f8 a8 > c8 < b4^8 r8^8 e8 g8 b8 a4 g+4 r8
+B f8 a8 > c8 < b4^8 r8^8 e8 f8 g8 c2 r8
+C f2 r8 b4 g8 e4 r8 < a8 r8 g+4^8 >
+C d4 r8 g4 f8 g+4 a8 < b8 g+8 f4^8 > r4
+D [ n6,8 n15,4 n15,4 n15,4 n6,16 n6,16 ]4
+
+A @@11
+B @@1 MP1 o4
+C q4
+D @v1
+
+; verse 2
+A [ r8 e8 g8 a8 e2 r8 e8 g8 a8 e8 d8 c8 d8 ]2
+A [ r8 c8 d8 e8 < a2 > r8 c8 d8 e8 < a8 a4 g8 > ]2
+B [ r8 g8 b8 > c8 < g4 r4^8 g8 b8 > c8 < g8 f8 e8 f8 ]2
+B [ r8 e8 f8 g8 f4 r4^8 e8 f8 g8 f8 f8 r8 g8 ]2
+C [ c8 d16 r16 e8 c16 r16 d8 < a16 r16 f8 > c16 r16
+C c8 d16 r16 e8 c16 r16 d16 d16 < a16 r16 f8 > c16 r16 ]4
+D [ n15,8 n10,8 n6,8 n10,8 n15,8 n6,8 n10,8 n6,8 ]8
+
+A @@0 @v21 MP0 o3
+B @@0 @v21 MP0 o5
+C q8
+
+; climax
+; BC are transcribed because wow
+A r8 a8 b8 > c4^8 d4 e8 c8 e8 d4^8 c8 d8 e4 c8 < a4 g4 e2^8 r2
+A r8 a8 b8 > c4^8 d4 e8 c8 e8 d4^8 c8 d8 e4 c8 < a4^8 > c4 e8 c8 e8 d2^8
+B r1 a8 q4 a16 > c16 e16 < a16 > c16 e16 q8 a2 <
+B g8^16 r16 g8 f4 < b8 > r8 c2 r8 e8 r8 d8 r8 
+B c4 r8 < b4^16 r16^8 > q4 c16 d16
+B e16 e16 c16 r16 e16 r16 q8 b8 r8 a4 r8 >
+B c16 r16 q4 < a16 a16 a16 > c16 q8 e4 r8^4
+B e16 r16 q8 e24 e24 e24 c16 e16 q8 g8^4 r4
+C a2 g+2 g8^16 r16 g+32 r32^16 f+2^16 r16
+C f4^16 r16 f16 r16 g4^16 r16
+C < g16 r16 > c4^16 r16 < g32 r32^16 > c8^16 r16 < b8^16 r16
+C a8^16 r16 a32 r32^16 g+2^16 r16
+C g4^16 r16 f+2^16 r16
+C f16^32 r32 d16^32 r32 g+16^32 r32 f+4^16 r16 g16 r16 g+16 r16
+C f16 r16 d16 r16 f+16 r16 g16 r16
+C g32 r32 g32 r32 f+16 r16 g16 r16 b16 r16 >
+D [ n15,8 n10,8 n6,8 n10,8 n15,8 n6,8 n10,8 n6,8 ]8
+
+AB MPOF
+C q4
+
+; outro/loop
+ABD [ r1 ]2
+C c8 d16 r16 e8 c16 r16 d8 < a16 r16 f8 > c16 r16
+C c8 d16 r16 e8 c16 r16 d16 < d16 a16 r16 f8 > c16 r16
